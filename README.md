@@ -7,13 +7,20 @@ $this->load->library(array('Curp_library' => 'curp'));
 
 # CONTROLLER
 public function calculate_curp ( ) {
+
   if( $this->form_validation->run()){
+  
     $data['curp'] = $this->curp->get();
     $this->load->view('curp', $data);
+    
   }
+  
   else{
+  
     error
+    
   }
+  
 }
 
 # FORM
