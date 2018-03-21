@@ -17,16 +17,16 @@ $this->load->library(array('Curp_library' => 'curp'));
     }
 
 # FORM
-    < form action="subscribe">
-      < input type="test" name="name" placeholder="Nombre"><br>
-      < input type="test" name="flname" placeholder="Apellido Paterno"><br>
-      < input type="test" name="slname" placeholder="Apellido Paterno"><br>
-      < input type="date" name="bdate"><br>
-      < label>Genero</label>
-      < input type="checkbox" name="sex" value="0">Mujer
-      < input type="checkbox" name="sex" value="1">Hombre<br>
-      < input type="submit" value="Obtener">
-    < /form>
+    <form action="subscribe">
+      <input type="test" name="name" placeholder="Nombre"><br>
+      <input type="test" name="flname" placeholder="Apellido Paterno"><br>
+      <input type="test" name="slname" placeholder="Apellido Paterno"><br>
+      <input type="date" name="bdate"><br>
+      <label>Genero</label>
+      <input type="checkbox" name="sex" value="0">Mujer
+      <input type="checkbox" name="sex" value="1">Hombre<br>
+      <input type="submit" value="Obtener">
+    </form>
 
 # USE
     $this->curp->get();//SABC560626MDFLRN09
