@@ -17,11 +17,11 @@ $this->load->library(array('Curp_library' => 'curp'));
     }
 
 # FORM
-    <form action="subscribe">
+    <form action="subscribe" method="post">
       <input type="test" name="name" placeholder="Nombre"><br>
       <input type="test" name="flname" placeholder="Apellido Paterno"><br>
       <input type="test" name="slname" placeholder="Apellido Paterno"><br>
-      <input type="date" name="bdate"><br>
+      <input type="date" name="bdate"><br><!-- generated  -->
       <label>Genero</label>
       <input type="checkbox" name="sex" value="0">Mujer
       <input type="checkbox" name="sex" value="1">Hombre<br>
